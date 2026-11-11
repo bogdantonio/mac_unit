@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log kogge_stone_32bit.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source kogge_stone_32bit.tcl
+EAStep vivado -log dadda_16bit.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source dadda_16bit.tcl

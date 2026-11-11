@@ -1,0 +1,304 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 03-jul-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Nov 11 20:22:54 2026
+# Process ID         : 14708
+# Current directory  : D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.runs/synth_1
+# Command line       : vivado.exe -log dadda_16bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dadda_16bit.tcl
+# Log file           : D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.runs/synth_1/dadda_16bit.vds
+# Journal file       : D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-POMJBTA
+# Platform           : Windows 10
+# Operating System   : 19045
+# Processor Detail   : AMD Ryzen 7 PRO 5875U with Radeon Graphics     
+# CPU Frequency      : 1996 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 15886 MB
+# Swap memory        : 3954 MB
+# Total Virtual      : 19840 MB
+# Available Virtual  : 3633 MB
+#-----------------------------------------------------------
+source dadda_16bit.tcl -notrace
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 585.188 ; gain = 269.465
+Command: synth_design -top dadda_16bit -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4200
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1165.648 ; gain = 573.512
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'dadda_16bit' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:12]
+INFO: [Synth 8-3491] module 'half_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/half_adder.vhd:4' bound to instance 'ha11' of component 'half_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'half_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/half_adder.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'half_adder' (0#1) [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/half_adder.vhd:11]
+INFO: [Synth 8-3491] module 'half_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/half_adder.vhd:4' bound to instance 'ha12' of component 'half_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:144]
+INFO: [Synth 8-3491] module 'half_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/half_adder.vhd:4' bound to instance 'ha13' of component 'half_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:145]
+INFO: [Synth 8-3491] module 'half_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/half_adder.vhd:4' bound to instance 'ha14' of component 'half_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:146]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa11' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'full_adder' (0#1) [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:12]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa12' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:149]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa13' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:150]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa14' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:151]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa15' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:152]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa16' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:153]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa17' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:154]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa18' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:155]
+INFO: [Synth 8-3491] module 'half_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/half_adder.vhd:4' bound to instance 'ha21' of component 'half_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:158]
+INFO: [Synth 8-3491] module 'half_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/half_adder.vhd:4' bound to instance 'ha22' of component 'half_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:159]
+INFO: [Synth 8-3491] module 'half_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/half_adder.vhd:4' bound to instance 'ha23' of component 'half_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:160]
+INFO: [Synth 8-3491] module 'half_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/half_adder.vhd:4' bound to instance 'ha24' of component 'half_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:161]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa21' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:163]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa22' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:164]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa240' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:166]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa23' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:168]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa24' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:169]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa25' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:170]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa26' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:171]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa27' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:172]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa28' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:173]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa29' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:174]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa210' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:175]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa211' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:176]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa212' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:177]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa213' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:178]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa214' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:179]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa215' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:180]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa216' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:181]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa217' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:182]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa218' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:183]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa219' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:184]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa220' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:185]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa221' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:186]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa222' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:187]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa223' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:188]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa224' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:189]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa225' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:190]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa226' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:191]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa227' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:192]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa228' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:193]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa229' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:194]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa230' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:195]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa231' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:196]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa232' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:197]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa233' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:198]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa234' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:199]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa235' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:200]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa236' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:201]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa237' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:202]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa238' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:203]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa239' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:204]
+INFO: [Synth 8-3491] module 'half_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/half_adder.vhd:4' bound to instance 'ha31' of component 'half_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:207]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa31' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:208]
+INFO: [Synth 8-3491] module 'half_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/half_adder.vhd:4' bound to instance 'ha32' of component 'half_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:209]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa32' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:210]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa33' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:211]
+INFO: [Synth 8-3491] module 'half_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/half_adder.vhd:4' bound to instance 'ha33' of component 'half_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:212]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa34' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:213]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa35' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:214]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa36' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:215]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa37' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:216]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa38' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:217]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa39' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:218]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa310' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:219]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa311' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:220]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa312' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:221]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa313' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:222]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa314' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:223]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa315' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:224]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa316' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:225]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa317' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:226]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa318' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:227]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa319' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:228]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa320' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:229]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa321' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:230]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa322' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:231]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa323' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:232]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa324' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:233]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa325' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:234]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa326' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:235]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa327' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:236]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa328' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:237]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa329' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:238]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa330' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:239]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa331' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:240]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa332' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:241]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa333' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:242]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa334' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:243]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa335' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:244]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa336' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:245]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa337' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:246]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa338' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:247]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa339' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:248]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa340' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:249]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd:4' bound to instance 'fa341' of component 'full_adder' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:250]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-638] synthesizing module 'kogge_stone_32bit' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/kogge_stone_32bit.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'kogge_stone_16bit' [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/kogge_stone_16bit.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'kogge_stone_16bit' (0#1) [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/kogge_stone_16bit.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'kogge_stone_32bit' (0#1) [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/kogge_stone_32bit.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'dadda_16bit' (0#1) [D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd:12]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1293.480 ; gain = 701.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1293.480 ; gain = 701.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1293.480 ; gain = 701.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1293.480 ; gain = 701.344
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 79    
+	   3 Input      1 Bit         XORs := 195   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 1599.594 ; gain = 1007.457
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 1600.477 ; gain = 1008.340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1600.477 ; gain = 1008.340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1765.543 ; gain = 1173.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1765.543 ; gain = 1173.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1765.543 ; gain = 1173.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1765.543 ; gain = 1173.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1765.543 ; gain = 1173.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1765.543 ; gain = 1173.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |    36|
+|2     |LUT3 |    91|
+|3     |LUT4 |    65|
+|4     |LUT5 |    83|
+|5     |LUT6 |   258|
+|6     |IBUF |    32|
+|7     |OBUF |    32|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   597|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1765.543 ; gain = 1173.406
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1765.543 ; gain = 1173.406
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1765.559 ; gain = 1173.406
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1780.598 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1888.195 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 3d34b4cd
+INFO: [Common 17-83] Releasing license: Vivado_Synthesis
+121 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 1889.199 ; gain = 1304.012
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1889.199 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.runs/synth_1/dadda_16bit.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file dadda_16bit_utilization_synth.rpt -pb dadda_16bit_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 11 20:23:52 2026...

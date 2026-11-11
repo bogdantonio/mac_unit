@@ -43,6 +43,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log kogge_stone_32bit.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source kogge_stone_32bit.tcl -notrace
+EAStep vivado -log dadda_16bit.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source dadda_16bit.tcl -notrace
 
 

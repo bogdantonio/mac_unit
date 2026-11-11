@@ -7,4 +7,4 @@ REM Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 REM Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
 REM
 
-vivado -log kogge_stone_32bit.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source kogge_stone_32bit.tcl -notrace
+vivado -log dadda_16bit.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source dadda_16bit.tcl -notrace

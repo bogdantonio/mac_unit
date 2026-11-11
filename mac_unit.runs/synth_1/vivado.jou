@@ -3,11 +3,11 @@
 # SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
 # IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
 # SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
-# Start of session at: Tue Nov 10 19:33:03 2026
-# Process ID         : 10840
+# Start of session at: Wed Nov 11 20:22:54 2026
+# Process ID         : 14708
 # Current directory  : D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.runs/synth_1
-# Command line       : vivado.exe -log kogge_stone_32bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source kogge_stone_32bit.tcl
-# Log file           : D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.runs/synth_1/kogge_stone_32bit.vds
+# Command line       : vivado.exe -log dadda_16bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dadda_16bit.tcl
+# Log file           : D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.runs/synth_1/dadda_16bit.vds
 # Journal file       : D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.runs/synth_1\vivado.jou
 # Running On         : DESKTOP-POMJBTA
 # Platform           : Windows 10
@@ -17,8 +17,8 @@
 # CPU Physical cores : 8
 # CPU Logical cores  : 16
 # Host memory        : 15886 MB
-# Swap memory        : 3998 MB
-# Total Virtual      : 19884 MB
-# Available Virtual  : 4037 MB
+# Swap memory        : 3954 MB
+# Total Virtual      : 19840 MB
+# Available Virtual  : 3633 MB
 #-----------------------------------------------------------
-source kogge_stone_32bit.tcl -notrace
+source dadda_16bit.tcl -notrace
