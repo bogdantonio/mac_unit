@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../mac_unit.srcs/sources_1/new/kogge_stone_16bit.vhd" \
-"../../../../mac_unit.srcs/sim_1/new/tb_16b_ksa.vhd" \
-
-# Do not sort compile order
-nosort
