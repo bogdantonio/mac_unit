@@ -2,3 +2,6 @@ Running: xsim.dir/tb_16b_dadda_behav/xsimk.exe -simmode gui -wdb tb_16b_dadda_be
 Design successfully loaded
 Design Loading Memory Usage: 16736 KB (Peak: 16736 KB)
 Design Loading CPU Usage: 93 ms
+Simulation completed
+Simulation Memory Usage: 17368 KB (Peak: 17368 KB)
+Simulation CPU Usage: 124 ms

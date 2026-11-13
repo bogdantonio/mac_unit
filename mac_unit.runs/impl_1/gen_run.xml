@@ -1,102 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1794421372">
-  <File Type="PA-TCL" Name="dadda_16bit.tcl"/>
-  <File Type="REPORTS-TCL" Name="dadda_16bit_reports.tcl"/>
-  <File Type="INIT-TIMING" Name="dadda_16bit_timing_summary_init.rpt"/>
-  <File Type="OPT-DCP" Name="dadda_16bit_opt.dcp"/>
-  <File Type="OPT-DRC" Name="dadda_16bit_drc_opted.rpt"/>
-  <File Type="OPT-UTIL" Name="dadda_16bit_utilization_opted.rpt"/>
-  <File Type="OPT-UTIL-PB" Name="dadda_16bit_utilization_opted.pb"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="dadda_16bit_methodology_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="dadda_16bit.hwdef"/>
-  <File Type="OPT-TIMING" Name="dadda_16bit_timing_summary_opted.rpt"/>
-  <File Type="OPT-RQA-PB" Name="dadda_16bit_rqa_opted.pb"/>
-  <File Type="PWROPT-DCP" Name="dadda_16bit_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="dadda_16bit_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="dadda_16bit_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="dadda_16bit_placed.dcp"/>
-  <File Type="PLACE-IO" Name="dadda_16bit_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="dadda_16bit_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="dadda_16bit_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="dadda_16bit_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="dadda_16bit_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="dadda_16bit_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="dadda_16bit_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="dadda_16bit_timing_summary_placed.rpt"/>
-  <File Type="PLACE-RQA-PB" Name="dadda_16bit_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="dadda_16bit_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="dadda_16bit_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="dadda_16bit_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="dadda_16bit_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-TIMING" Name="dadda_16bit_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="dadda_16bit_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="dadda_16bit_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="dadda_16bit_routed_bb.dcp"/>
-  <File Type="ROUTE-UTIL" Name="dadda_16bit_utilization_routed.rpt"/>
-  <File Type="ROUTE-UTIL-PB" Name="dadda_16bit_utilization_routed.pb"/>
-  <File Type="ROUTE-DRC" Name="dadda_16bit_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="dadda_16bit_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="dadda_16bit_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="dadda_16bit_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="dadda_16bit_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="dadda_16bit_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="dadda_16bit_power_routed.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="dadda_16bit_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="dadda_16bit_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="dadda_16bit_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="dadda_16bit_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="dadda_16bit_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="dadda_16bit_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="dadda_16bit_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="dadda_16bit_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="dadda_16bit_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="dadda_16bit_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="dadda_16bit_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="dadda_16bit_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-RQS-PB" Name="dadda_16bit_rqs_routed.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="dadda_16bit_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="dadda_16bit_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="kogge_stone_32bit_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="kogge_stone_32bit_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="kogge_stone_32bit_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="kogge_stone_32bit_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="kogge_stone_32bit_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="kogge_stone_32bit_bus_skew_postroute_physopted.rpx"/>
-  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="dadda_16bit.nts"/>
-  <File Type="NOC_SOLUTION_FILE" Name="dadda_16bit.ncr"/>
-  <File Type="BG-BIT" Name="dadda_16bit.bit"/>
-  <File Type="BG-XML" Name="dadda_16bit.xml"/>
-  <File Type="BG-WRITE-BITSTREAM-XML" Name="write_bitstream.xml"/>
+  <File Type="ROUTE-PWR-SUM" Name="dadda_32bit_power_summary_routed.pb"/>
+  <File Type="BITSTR-MMI" Name="dadda_16bit.mmi"/>
+  <File Type="OPT-DRC" Name="dadda_32bit_drc_opted.rpt"/>
+  <File Type="RDI-RDI" Name="dadda_16bit.vdi"/>
+  <File Type="BG-DRC" Name="dadda_16bit.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="dadda_32bit_route_status.pb"/>
+  <File Type="BG-BGN" Name="dadda_16bit.bgn"/>
+  <File Type="PLACE-UTIL" Name="dadda_32bit_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="dadda_32bit_utilization_placed.pb"/>
+  <File Type="PLACE-IO" Name="dadda_32bit_io_placed.rpt"/>
   <File Type="BG-BIN" Name="dadda_16bit.bin"/>
+  <File Type="REPORTS-TCL" Name="dadda_16bit_reports.tcl"/>
+  <File Type="PA-TCL" Name="dadda_16bit.tcl"/>
+  <File Type="PLACE-CTRL" Name="dadda_32bit_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="dadda_32bit_power_routed.rpx"/>
   <File Type="BITSTR-MSK" Name="dadda_16bit.msk"/>
   <File Type="BITSTR-RBT" Name="dadda_16bit.rbt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="dadda_32bit_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="dadda_32bit_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="dadda_32bit_route_status.rpt"/>
+  <File Type="ROUTE-PWR" Name="dadda_32bit_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="dadda_32bit_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="dadda_32bit_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="dadda_32bit_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="dadda_32bit_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="dadda_32bit_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="dadda_32bit_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="dadda_32bit_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="dadda_32bit_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="dadda_32bit_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="dadda_32bit_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="dadda_32bit_bus_skew_routed.pb"/>
+  <File Type="BG-XML" Name="dadda_16bit.xml"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="dadda_32bit_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="dadda_32bit_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-WRITE-BITSTREAM-XML" Name="write_bitstream.xml"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="dadda_32bit_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="dadda_32bit_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="dadda_32bit_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="dadda_32bit_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="dadda_16bit.bit"/>
   <File Type="BITSTR-NKY" Name="dadda_16bit.nky"/>
   <File Type="BITSTR-BMM" Name="dadda_16bit_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="dadda_16bit.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="dadda_16bit.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="dadda_16bit.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="dadda_16bit.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="dadda_16bit_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="dadda_16bit_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="dadda_16bit_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="dadda_16bit_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="dadda_16bit_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="dadda_16bit_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="dadda_16bit_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="dadda_16bit_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="dadda_16bit_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="dadda_16bit_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="dadda_16bit_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="dadda_16bit_postroute_physopt_bb.dcp"/>
   <File Type="PDI-FILE" Name="dadda_16bit.pdi"/>
   <File Type="BOOT-PDI-FILE" Name="dadda_16bit_boot.pdi"/>
   <File Type="PL-PDI-FILE" Name="dadda_16bit_pld.pdi"/>
   <File Type="RCFI_FILE" Name="dadda_16bit.rcfi"/>
   <File Type="CFI_FILE" Name="dadda_16bit.cfi"/>
   <File Type="RNPI_FILE" Name="dadda_16bit.rnpi"/>
-  <File Type="RCDO-FILE" Name="dadda_16bit.rcdo"/>
-  <File Type="MARKER-RNPI-FILE" Name="dadda_16bit_markers.rnpi"/>
-  <File Type="MARKER-RCDO-FILE" Name="dadda_16bit_markers.rcdo"/>
-  <File Type="BOOT_RNPI_FILE" Name="dadda_16bit_boot.rnpi"/>
-  <File Type="BOOT_MARKER_RNPI_FILE" Name="dadda_16bit_boot_markers.rnpi"/>
-  <File Type="PL_RNPI_FILE" Name="dadda_16bit_pld.rnpi"/>
-  <File Type="PL_MARKER_RNPI_FILE" Name="dadda_16bit_pld_markers.rnpi"/>
-  <File Type="PL_MASK_RNPI_FILE" Name="dadda_16bit_pld_mask.rnpi"/>
-  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="dadda_16bit_pld_shutdown.rnpi"/>
-  <File Type="PL_UNMASK_RNPI_FILE" Name="dadda_16bit_pld_unmask.rnpi"/>
-  <File Type="PL-RCDO-FILE" Name="dadda_16bit_pld.rcdo"/>
-  <File Type="PL-CLEAR-RCDO-FILE" Name="dadda_16bit_pld_clear.rcdo"/>
-  <File Type="PL_MARKER_RCDO_FILE" Name="dadda_16bit_pld_markers.rcdo"/>
-  <File Type="PL_MASK_RCDO_FILE" Name="dadda_16bit_pld_mask.rcdo"/>
-  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="dadda_16bit_pld_unmask_markers.rcdo"/>
-  <File Type="PL_UNMASK_RCDO_FILE" Name="dadda_16bit_pld_unmask.rcdo"/>
   <File Type="NPI_FILE" Name="dadda_16bit.npi"/>
   <File Type="RBD_FILE" Name="dadda_16bit.rbd"/>
+  <File Type="ROUTE-RQS" Name="dadda_16bit_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="dadda_16bit_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <File Type="MMI-FILE" Name="dadda_16bit.mmi"/>
   <File Type="BIF-FILE" Name="dadda_16bit.bif"/>
   <File Type="BOOT-BIF-FILE" Name="dadda_16bit_boot.bif"/>
@@ -104,17 +79,24 @@
   <File Type="LTX-FILE" Name="dadda_16bit.ltx"/>
   <File Type="BOOT-LTX-FILE" Name="dadda_16bit_boot.ltx"/>
   <File Type="PL-LTX-FILE" Name="dadda_16bit_pld.ltx"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="dadda_16bit.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="dadda_16bit.sysdef"/>
-  <File Type="BG-BGN" Name="dadda_16bit.bgn"/>
-  <File Type="BG-DRC" Name="dadda_16bit.drc"/>
-  <File Type="RDI-RDI" Name="dadda_16bit.vdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="dadda_16bit_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="dadda_16bit_postroute_physopted.rqs"/>
-  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="RCDO-FILE" Name="dadda_16bit.rcdo"/>
+  <File Type="MARKER-RCDO-FILE" Name="dadda_16bit_markers.rcdo"/>
+  <File Type="PL-RCDO-FILE" Name="dadda_16bit_pld.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="dadda_16bit_markers.rnpi"/>
+  <File Type="BOOT_RNPI_FILE" Name="dadda_16bit_boot.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="dadda_16bit_pld.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="dadda_16bit_boot_markers.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="dadda_16bit_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="dadda_16bit_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="dadda_16bit_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="dadda_16bit_pld_unmask.rnpi"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="dadda_16bit_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="dadda_16bit_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="dadda_16bit_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="dadda_16bit_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="dadda_16bit_pld_unmask.rcdo"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="dadda_16bit.nts"/>
+  <File Type="NOC_SOLUTION_FILE" Name="dadda_16bit.ncr"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/full_adder.vhd">
@@ -189,5 +171,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>

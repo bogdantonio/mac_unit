@@ -1,10 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/dadda_16bit.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'dadda_16bit'
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/full_adder.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'full_adder'
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/half_adder.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'half_adder'
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sources_1/new/kogge_stone_32bit.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'kogge_stone_32bit'
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sim_1/new/tb_16b_dadda.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'tb_16b_dadda'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/4y3l/y3/s1/SCS/project/mac_unit/mac_unit.srcs/sim_1/new/tb_mac_sys.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_mac_sys'
